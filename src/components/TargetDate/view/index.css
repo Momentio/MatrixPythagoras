@@ -1,0 +1,12 @@
+.targetDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.targetDate__text{
+    font-size: 28px;
+    background: var(--color2);
+}

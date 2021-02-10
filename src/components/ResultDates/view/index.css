@@ -1,0 +1,26 @@
+.resultDates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.resultDates__item{
+    background: var(--color2);
+    padding: 8px;
+    color: var(--color5);
+}
+
+.resultDates__item .resultDates__item--ved{
+    color: var(--color4);
+}
+
+@media screen and (max-width:400px){
+    .resultDates__item{
+        background: var(--color2);
+        padding: 4px;
+    }
+    
+}

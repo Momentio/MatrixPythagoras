@@ -1,0 +1,37 @@
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color3);
+    font-family: Roboto;
+    color: var(--color4);
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+:root{
+    --color1: #D9A3D5;
+    --color2: #8B308C;
+    --color3: #023059;
+    --color4: #011526;
+    --color5: #9CC1D9;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+}
+
+@media screen and (max-width:400px){
+    .main{
+        padding: 24px 8px;
+    }
+}
